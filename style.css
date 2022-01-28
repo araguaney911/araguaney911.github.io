@@ -383,3 +383,56 @@ main .main-logo
         margin-bottom: 5px;
         border-radius: 20px;
     }
+
+    main .mid-section-button
+    {
+        border: none;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 30px;
+        width: 45vw;
+        height: 5.6vh;
+        
+    }
+
+    main .mid-section-button p
+    {
+        border: solid 0.2px #c8ccd1;
+        width: 6vw;
+        height: 0.2px;
+        position: relative;
+        margin-top: 19px;
+               
+        
+    }
+
+    main .mid-section-button .pizq
+    {
+        margin-right: 8px;
+    }
+
+    main .mid-section-button .pder
+    {
+        margin-left: 8px;
+    }
+
+    main .mid-section-button select
+    {
+        margin-top: 5px;
+        background-image: url("./Imagenes/simbolo\ chino.JPG");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-left:30px ;
+        color: #36c;
+        border: solid 1px #36c;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    #hr1
+    {
+        margin-top: 30px;
+        border-bottom: 1px solid #c8ccd1;
+    }
