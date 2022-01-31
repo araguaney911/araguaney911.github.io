@@ -683,7 +683,51 @@ main .main-logo
       
    }
 
-   
+   footer .nav-footer
+   {
+       border: none;
+       width: 100%;
+       display: flex;
+       margin-top: 20px;
+       margin-bottom: 20px;
+              
+   }
+
+   footer .nav-footer ul
+   {
+       
+
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      color: #54595d;
+      font-size: 1.3rem;
+      
+              
+   }
+   footer .nav-footer li 
+   {
+       padding-right: 25px;
+       
+   }
+
+   footer .nav-footer a 
+   {
+       text-decoration: none;
+   }
+
+   #li1,#li2
+   {
+       list-style: none;
+   }
+
+   #li2
+   {
+       margin-left: -20px;
+   }
+
+  
+  
 
 
     
