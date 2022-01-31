@@ -436,3 +436,85 @@ main .main-logo
         margin-top: 30px;
         border-bottom: 1px solid #c8ccd1;
     }
+    
+    .footer .footer-right-side
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 57.5vw;
+        margin-left: 550px;
+        border: solid black;
+        margin-top: -400.3px;
+    }
+
+    .footer .footer-left-side
+    {
+        
+        border: solid black;
+        margin-top: 30px;
+        width: 40vw;
+        height: 60vh;
+        position: relative
+        
+    }
+
+    .footer-left-side div
+    {
+        font-size: 1.6rem;
+        color: #54595d;
+        border: none;
+        padding-left: 6rem;
+        padding-right: 2rem;
+        width: 28vw;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .footer-left-side .logo-media
+    {
+        background-image: url("./Imagenes/wikimedia.JPG");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position-x: 0;
+        background-position-y: 0;
+        
+    }
+
+    .footer-left-side .logo-w 
+    {
+        margin-top: 35px;
+        width: 28vw;
+        background-image: url("./Imagenes/W_de_wiki.JPG");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position-x: 0;
+        background-position-y: 0;
+        
+    }
+
+    .logo-w span 
+    {
+        border: none;
+       font-weight: 700;
+       color: #54595d;
+    }
+
+    .app-store
+    {
+        border: none;
+        margin-left: -25px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+   #apple
+   {
+       height: 35px;
+      margin-top: 1px;
+   }
+
+
+    
