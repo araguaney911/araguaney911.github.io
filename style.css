@@ -440,17 +440,18 @@ main .main-logo
     .footer .footer-right-side
     {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         width: 57.5vw;
+        height: 60.2vh;
         margin-left: 550px;
-        border: solid black;
+        border: none;
         margin-top: -400.3px;
     }
 
     .footer .footer-left-side
     {
         
-        border: solid black;
+        border: none;
         margin-top: 30px;
         width: 40vw;
         height: 60vh;
@@ -515,6 +516,174 @@ main .main-logo
        height: 35px;
       margin-top: 1px;
    }
+
+   footer .footer-right-side div 
+   {
+       border: none;
+   }
+
+   footer .footer-right-side section
+   {
+       border: none;
+       font-size: 1.4rem;
+       width: 14vw;
+       margin-left: 45px;
+       margin-top: 25px;
+       
+   }
+
+   #wikisource 
+   {
+    border: none;
+    font-size: 1.4rem;
+    width: 14vw;
+    margin-left: 45px;
+    margin-top: 35px; 
+   }
+
+   #wikiespecies 
+   {
+    border: none;
+    font-size: 1.4rem;
+    width: 14vw;
+    margin-left: 50px;
+    margin-top: 40px; 
+   }
+
+   #viajes 
+   {
+    border: none;
+    font-size: 1.4rem;
+    width: 14vw;
+    margin-left: 50px;
+    margin-top: 35px; 
+   }
+
+   
+   #dicc
+   {
+    border: none;
+    font-size: 1.4rem;
+    width: 14vw;
+    margin-left: 50px;
+    margin-top: 35px; 
+   }
+
+   footer .footer-right-side a 
+   {
+       color: #36c;
+       text-decoration: none;
+   }
+
+   .footer-right-side .commons 
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .viajes
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/1024px-Wikivoyage-Logo-v3-icon.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .diccionario
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiktfavicon_en.svg/1024px-Wiktfavicon_en.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .books
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/1200px-Wikibooks-logo.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .noticias
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/1200px-Wikinews-logo.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .data
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Notification-icon-Wikidata-logo.svg/1200px-Notification-icon-Wikidata-logo.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .universidad
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/1200px-Wikiversity_logo_2017.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .quote
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikiquote.svg/1200px-Notification-icon-Wikiquote.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .media
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Notification-icon-MediaWiki-logo.svg/1200px-Notification-icon-MediaWiki-logo.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .source
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/1200px-Wikisource-logo.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .especies
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/1200px-Wikispecies-logo.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   .footer-right-side .meta
+   {
+       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Meta-Wiki_Proposed_logo.svg/1200px-Meta-Wiki_Proposed_logo.svg.png");
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: 38px;
+      
+   }
+
+   
 
 
     
